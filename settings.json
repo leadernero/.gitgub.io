@@ -1,0 +1,15 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnSave": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "window.zoomLevel": 1,
+  "liveSassCompile.settings.formats": [
+
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/style",
+      "savePathReplacementPairs": null
+    }
+  ]
+}

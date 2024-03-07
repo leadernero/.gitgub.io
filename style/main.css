@@ -1,0 +1,299 @@
+.header {
+  justify-content: space-between;
+  background-color: #e1ede6;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.header .header_menu {
+  float: right;
+  vertical-align: middle;
+  overflow: hidden;
+  text-align: center;
+}
+.header .header_menu a {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font: sans-serif;
+  -webkit-text-decoration: solid #2c2d35;
+          text-decoration: solid #2c2d35;
+  font-size: medium;
+  color: #2c2d35;
+}
+.header .header_menu :hover {
+  color: rgb(12, 194, 255);
+  transition: 1s;
+}
+.header .header_image {
+  display: inline-block;
+  padding: 10px;
+  min-width: 100px;
+}
+
+@media (max-width: 690px) {
+  .header {
+    max-width: 690px;
+    padding: 10px;
+    justify-content: start;
+  }
+  .header .header_menu {
+    max-width: 320px;
+  }
+}
+@media (min-width: 691px) and (max-width: 1000px) {
+  .header {
+    padding: 10px;
+    justify-content: space-between;
+  }
+  .header .header_menu {
+    max-width: 320px;
+  }
+}
+body {
+  margin: 0%;
+}
+
+.main-body {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.footer .footer_text1, .promo p, .gallery .card p, .reproduction, .home .text {
+  font-family: Arial, Helvetica, sans-serif;
+  font: sans-serif;
+  -webkit-text-decoration: solid #2c2d35;
+          text-decoration: solid #2c2d35;
+  font-size: medium;
+  color: #2c2d35;
+}
+
+.gallery .card button, .home button {
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 60px;
+  width: 200px;
+  line-height: 20px;
+  list-style: none;
+  background-color: #E1EDE6;
+  border-radius: 8px;
+  border-style: solid;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.promo .promo-2 button {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 1em;
+  font-weight: 500;
+  height: 60px;
+  width: 250px;
+  background-color: #EEDB6D;
+  box-sizing: border-box;
+  padding: 20px;
+  overflow: hidden;
+  border: none;
+}
+
+.reproduction button {
+  justify-self: end;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  background-color: #E1EDE6;
+  border-radius: 17px;
+  border-style: none;
+  box-sizing: border-box;
+  padding: 7px 16px;
+}
+
+.home {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  height: auto;
+  position: relative;
+}
+.home .button :hover {
+  background-color: #376B44;
+  color: aliceblue;
+  transition: 1s;
+}
+.home .text {
+  font-size: 20pt;
+}
+
+.reproduction {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+.reproduction #id1 {
+  justify-self: start;
+  width: 30%;
+  text-align: center;
+}
+.reproduction .reproduction_buttons {
+  min-width: 290px;
+}
+.reproduction .reproduction_buttons :hover {
+  background-color: #376B44;
+  color: aliceblue;
+  transition: 1s;
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  transition: 2s;
+  justify-content: center;
+}
+.gallery .card {
+  margin-top: 30px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #E1EDE6;
+  border-radius: 20px;
+  max-width: 350px;
+}
+.gallery .card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.gallery .card .text1 {
+  color: #9a9cab;
+}
+.gallery .card .text2 {
+  color: #2c2d35;
+}
+.gallery .card .text4 {
+  color: #376B44;
+}
+.gallery .card .button :hover {
+  background-color: #376B44;
+  color: aliceblue;
+  transition: 1s;
+}
+
+.promo {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-bottom: 30px;
+  position: relative;
+  background-image: url(../pictures/pic_background.png);
+  background-size: 100%;
+}
+.promo .promo-1 {
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 10px;
+}
+.promo .promo-1 .overlay {
+  font-size: 3vw;
+  color: aliceblue;
+  width: 50%;
+  background-image: url(../pictures/Star\ 2.svg);
+  background-position: left center;
+  background-size: 8vw;
+  background-repeat: no-repeat;
+  padding-left: 12%;
+}
+.promo .promo-1 .overlay img {
+  width: 50px;
+}
+.promo .promo-1 .overlay-2 {
+  font-weight: 500;
+  color: aliceblue;
+  width: 50%;
+}
+.promo .promo-2 {
+  padding-left: 7%;
+  padding-right: 7%;
+  width: 250px;
+}
+.promo .promo-2 :hover {
+  color: aliceblue;
+  background-color: #c3ad2f;
+  transition: 1s;
+}
+.team {
+  padding-left: 7%;
+  padding-right: 7%;
+  margin: 70px 0 0 0;
+}
+.team img {
+  width: 100%;
+  height: auto;
+  filter: blur(3px);
+}
+.team :hover {
+  filter: none;
+  transition: 1s;
+}
+.team :not(:hover) {
+  filter: blur(3px);
+  transition: 1s;
+}
+
+@media (min-width: 690px) {
+  .home {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    height: auto;
+    position: relative;
+  }
+  .home aside img {
+    align-self: start;
+    max-width: 100%;
+    height: auto;
+    min-width: 200px;
+  }
+  .home .home_text-1 {
+    display: flex;
+    flex-flow: column;
+  }
+  .home .home_text-1 img {
+    max-width: 400px;
+    height: auto;
+  }
+}
+@media (max-width: 690px) {
+  .home {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    transition: 0.5s;
+    align-content: center;
+  }
+  .home .home_text-1 {
+    width: 400px;
+    height: auto;
+    flex-flow: row;
+  }
+  .home .home_text-1 img {
+    max-width: 200px;
+  }
+  .home aside img {
+    max-width: 300px;
+  }
+}
+.footer {
+  background-color: #e1ede6;
+  margin: 0%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 7%;
+  padding-right: 7%;
+}/*# sourceMappingURL=main.css.map */

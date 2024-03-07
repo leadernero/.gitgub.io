@@ -1,0 +1,18 @@
+.footer {
+  background-color: #e1ede6;
+  margin: 0%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.footer .footer_text1 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font: sans-serif;
+  -webkit-text-decoration: solid #2c2d35;
+          text-decoration: solid #2c2d35;
+  font-size: medium;
+  color: #2c2d35;
+}/*# sourceMappingURL=footer.css.map */

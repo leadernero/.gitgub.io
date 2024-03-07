@@ -1,0 +1,52 @@
+.header {
+    justify-content: space-between;
+
+    background-color: #e1ede6;
+    padding-left: 100px;
+    padding-right: 100px;
+    .header_menu {
+        float: right;
+        vertical-align: middle;
+        overflow: hidden;
+        text-align: center;
+
+        a {
+            padding-left: 10px;
+            padding-right: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            font:sans-serif;
+            text-decoration: solid #2c2d35;
+            font-size: medium;
+            color: #2c2d35;
+            
+        }
+        :hover {
+            color: rgb(12, 194, 255);
+            transition: 1s;
+        }
+    }
+    .header_image {
+        display: inline-block;
+        padding: 10px;
+        min-width: 100px;
+    }
+}
+@media (max-width: 690px) {
+    .header{
+        max-width: 690px;
+        padding: 10px;
+        .header_menu{
+            max-width: 320px;
+        }
+        justify-content: start;
+    }
+}
+@media (min-width: 691px) and (max-width: 1000px) {
+    .header{
+        padding: 10px;
+        .header_menu{
+            max-width: 320px;
+        }
+        justify-content: space-between;
+    }
+}
