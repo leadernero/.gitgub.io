@@ -36,16 +36,15 @@
         max-width: 690px;
         padding: 10px;
         .header_menu{
-            max-width: 320px;
+            max-width: 200px;
         }
-        justify-content: start;
     }
 }
 @media (min-width: 691px) and (max-width: 1000px) {
     .header{
         padding: 10px;
         .header_menu{
-            max-width: 320px;
+            max-width: 200px;
         }
         justify-content: space-between;
     }
